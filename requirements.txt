@@ -1,0 +1,6 @@
+# Dependencies for the AI-Powered News Aggregator core
+requests
+beautifulsoup4
+nltk
+scikit-learn
+pandas
