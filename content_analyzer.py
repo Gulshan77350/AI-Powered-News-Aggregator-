@@ -5,7 +5,7 @@ from sklearn.pipeline import make_pipeline
 from typing import Dict, Tuple
 from persistence_layer import save_model, load_model
 
-# --- Model Artifact Names ---
+
 TOPIC_MODEL_FILE = "topic_classifier.pkl"
 BIAS_MODEL_FILE = "bias_classifier.pkl"
 
