@@ -15,7 +15,7 @@ def render_results(classified_articles: List[Dict], query: str):
         print("No classified articles to display.")
         return
 
-    # Grouping by Topic for structured display
+    
     topics = {}
     for article in classified_articles:
         topic = article.get('topic', 'UNCATEGORIZED')
