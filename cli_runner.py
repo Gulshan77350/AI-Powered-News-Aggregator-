@@ -10,7 +10,7 @@ def execute_pipeline(search_query: str = "World Events"):
     print(f"Starting News Aggregation Pipeline for query: '{search_query}'")
     
     try:
-        # Step 1: Ensure models are ready (trains if needed)
+        
         ensure_models_loaded()
         
         # Step 2: Fetch articles
