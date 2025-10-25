@@ -2,7 +2,7 @@ import json
 import pickle
 import os
 
-# Define a standard directory for persistent data
+
 DATA_DIR = "data"
 
 def save_model(model, filename):
