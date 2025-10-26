@@ -13,7 +13,7 @@ def execute_pipeline(search_query: str = "World Events"):
         
         ensure_models_loaded()
         
-        # Step 2: Fetch articles
+        
         articles = fetch_multi_source_content(search_query, limit=15)
         
         if not articles:
