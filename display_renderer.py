@@ -23,7 +23,7 @@ def render_results(classified_articles: List[Dict], query: str):
             topics[topic] = []
         topics[topic].append(article)
 
-    # Display grouped results
+    
     for topic, article_list in topics.items():
         print(f"\n--- TOPIC: {topic.upper()} ({len(article_list)} Articles) ---")
         print("-" * (len(topic) + 12))
