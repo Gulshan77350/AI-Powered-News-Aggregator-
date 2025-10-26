@@ -6,7 +6,7 @@ import os
 DATA_DIR = "data"
 
 def save_model(model, filename):
-    """Saves a trained Scikit-learn model using pickle."""
+    
     filepath = os.path.join(DATA_DIR, filename)
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, 'wb') as file:
