@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from typing import List, Dict
 
-# This list simulates news articles fetched from multiple APIs or scrapers.
+
 def fetch_multi_source_content(query: str, limit: int = 10) -> List[Dict]:
     """
     Simulates fetching news articles based on a query.
