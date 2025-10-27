@@ -1,12 +1,7 @@
 from typing import List, Dict
 
 def render_results(classified_articles: List[Dict], query: str):
-    """
-    Renders the final classified news articles to the console.
-    
-    In a full-stack project (React.js, Node.js), this function would instead 
-    format the data and send it as a JSON response to the frontend.
-    """
+   
     print("\n" + "="*80)
     print(f"               AI-POWERED NEWS AGGREGATOR | RESULTS FOR: '{query}'")
     print("="*80)
