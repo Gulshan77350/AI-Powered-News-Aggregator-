@@ -4,9 +4,7 @@ from persistence_layer import save_articles
 from display_renderer import render_results
 
 def execute_pipeline(search_query: str = "World Events"):
-    """
-    Executes the full pipeline: Fetch -> Analyze -> Display.
-    """
+    
     print(f"Starting News Aggregation Pipeline for query: '{search_query}'")
     
     try:
