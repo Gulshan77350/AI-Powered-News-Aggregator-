@@ -13,7 +13,7 @@ def fetch_multi_source_content(query: str, limit: int = 10) -> List[Dict]:
     """
     print(f"Connecting to sources and retrieving content for: '{query}'...")
     
-    # Placeholder data structure for articles
+    
     articles = []
     
     for i in range(limit):
