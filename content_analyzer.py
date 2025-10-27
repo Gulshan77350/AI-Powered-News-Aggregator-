@@ -10,7 +10,6 @@ TOPIC_MODEL_FILE = "topic_classifier.pkl"
 BIAS_MODEL_FILE = "bias_classifier.pkl"
 
 
-# This data simulates a dataset used to train the classifiers.
 TRAINING_DATA = [
     ("The Fed signals interest rate cuts to boost economy.", "Economy", "Neutral"),
     ("New regulations target corporate tax loopholes.", "Politics", "Left"),
