@@ -1,4 +1,3 @@
-# Dependencies for the AI-Powered News Aggregator core
 requests
 beautifulsoup4
 nltk
