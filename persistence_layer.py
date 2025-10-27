@@ -14,7 +14,7 @@ def save_model(model, filename):
     print(f"Model successfully saved to {filepath}")
 
 def load_model(filename):
-    """Loads a trained Scikit-learn model from file."""
+  
     filepath = os.path.join(DATA_DIR, filename)
     if os.path.exists(filepath):
         print(f"Loading model from {filepath}...")
