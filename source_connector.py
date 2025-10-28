@@ -4,13 +4,7 @@ from typing import List, Dict
 
 
 def fetch_multi_source_content(query: str, limit: int = 10) -> List[Dict]:
-    """
-    Simulates fetching news articles based on a query.
     
-    In a production system, this would contain logic for:
-    1. Hitting dedicated News APIs (e.g., NewsAPI, GNews).
-    2. Executing custom Web Scrapers using requests/BeautifulSoup.
-    """
     print(f"Connecting to sources and retrieving content for: '{query}'...")
     
     
