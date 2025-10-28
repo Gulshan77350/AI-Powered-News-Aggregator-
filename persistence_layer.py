@@ -24,7 +24,7 @@ def load_model(filename):
     return None
 
 def save_articles(articles, filename="articles.json"):
-    """Saves a list of articles as a JSON file."""
+   
     filepath = os.path.join(DATA_DIR, filename)
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, 'w', encoding='utf-8') as f:
