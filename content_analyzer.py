@@ -20,7 +20,7 @@ TRAINING_DATA = [
     ("Market analysts predict a strong year for banking.", "Economy", "Right"),
 ]
 
-# Download necessary NLTK data (if not already present)
+
 try:
     nltk.data.find('corpora/stopwords')
 except nltk.downloader.DownloadError:
